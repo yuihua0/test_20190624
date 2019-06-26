@@ -1,0 +1,332 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="initializes_setup" id="3" x="80" y="40">
+    <statement name="CONTENT">
+      <block type="linkit_lremote" id="4" inline="false">
+        <field name="ORIENTATION">vertical</field>
+        <value name="DEVICEID">
+          <block type="text" id="5">
+            <field name="TEXT">yuihua</field>
+          </block>
+        </value>
+        <value name="COLUMN">
+          <block type="math_number" id="6">
+            <field name="NUM">5</field>
+          </block>
+        </value>
+        <value name="ROW">
+          <block type="math_number" id="7">
+            <field name="NUM">6</field>
+          </block>
+        </value>
+        <statement name="CONTENT">
+          <block type="linkit_lremote_settext" id="8" inline="true">
+            <field name="COLOUR">blue</field>
+            <value name="NAME">
+              <block type="text" id="9">
+                <field name="TEXT">label1</field>
+              </block>
+            </value>
+            <value name="CONTENT">
+              <block type="text" id="10">
+                <field name="TEXT">藍牙遙控測試</field>
+              </block>
+            </value>
+            <value name="COLUMN">
+              <block type="math_number" id="11">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <value name="ROW">
+              <block type="math_number" id="12">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <value name="WIDTH">
+              <block type="math_number" id="13">
+                <field name="NUM">5</field>
+              </block>
+            </value>
+            <value name="HEIGHT">
+              <block type="math_number" id="14">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <next>
+              <block type="linkit_lremote_settext" id="54" inline="true">
+                <field name="COLOUR">orange</field>
+                <value name="NAME">
+                  <block type="text" id="55">
+                    <field name="TEXT">label2</field>
+                  </block>
+                </value>
+                <value name="CONTENT">
+                  <block type="text" id="56">
+                    <field name="TEXT">未知</field>
+                  </block>
+                </value>
+                <value name="COLUMN">
+                  <block type="math_number" id="57">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="ROW">
+                  <block type="math_number" id="58">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <value name="WIDTH">
+                  <block type="math_number" id="59">
+                    <field name="NUM">5</field>
+                  </block>
+                </value>
+                <value name="HEIGHT">
+                  <block type="math_number" id="60">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="linkit_lremote_setbuttonsquare" id="15" inline="true">
+                    <field name="COLOUR">pink</field>
+                    <value name="NAME">
+                      <block type="text" id="16">
+                        <field name="TEXT">button1</field>
+                      </block>
+                    </value>
+                    <value name="CONTENT">
+                      <block type="text" id="17">
+                        <field name="TEXT">開</field>
+                      </block>
+                    </value>
+                    <value name="COLUMN">
+                      <block type="math_number" id="18">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="ROW">
+                      <block type="math_number" id="19">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <value name="WIDTH">
+                      <block type="math_number" id="20">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <value name="HEIGHT">
+                      <block type="math_number" id="21">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="linkit_lremote_setbuttonsquare" id="22" inline="true">
+                        <field name="COLOUR">gray</field>
+                        <value name="NAME">
+                          <block type="text" id="23">
+                            <field name="TEXT">button2</field>
+                          </block>
+                        </value>
+                        <value name="CONTENT">
+                          <block type="text" id="24">
+                            <field name="TEXT">開</field>
+                          </block>
+                        </value>
+                        <value name="COLUMN">
+                          <block type="math_number" id="25">
+                            <field name="NUM">3</field>
+                          </block>
+                        </value>
+                        <value name="ROW">
+                          <block type="math_number" id="26">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                        <value name="WIDTH">
+                          <block type="math_number" id="27">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                        <value name="HEIGHT">
+                          <block type="math_number" id="28">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="linkit_lremote_settext" id="29" inline="true">
+                            <field name="COLOUR">orange</field>
+                            <value name="NAME">
+                              <block type="text" id="30">
+                                <field name="TEXT">label3</field>
+                              </block>
+                            </value>
+                            <value name="CONTENT">
+                              <block type="text" id="31">
+                                <field name="TEXT">曾玉華製作</field>
+                              </block>
+                            </value>
+                            <value name="COLUMN">
+                              <block type="math_number" id="32">
+                                <field name="NUM">0</field>
+                              </block>
+                            </value>
+                            <value name="ROW">
+                              <block type="math_number" id="33">
+                                <field name="NUM">5</field>
+                              </block>
+                            </value>
+                            <value name="WIDTH">
+                              <block type="math_number" id="34">
+                                <field name="NUM">5</field>
+                              </block>
+                            </value>
+                            <value name="HEIGHT">
+                              <block type="math_number" id="35">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <next>
+      <block type="initializes_loop" id="36">
+        <statement name="CONTENT">
+          <block type="linkit_lremote_process" id="37">
+            <next>
+              <block type="controls_if" id="38" inline="false">
+                <value name="IF0">
+                  <block type="logic_operation" id="130" inline="true">
+                    <field name="OP">OR</field>
+                    <value name="A">
+                      <block type="linkit_lremote_is_written" id="39">
+                        <field name="NAME">button1</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="linkit_lremote_is_written" id="131">
+                        <field name="NAME">button2</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_if" id="40" inline="false">
+                    <value name="IF0">
+                      <block type="logic_operation" id="121" inline="true">
+                        <field name="OP">AND</field>
+                        <value name="A">
+                          <block type="logic_compare" id="41" inline="true">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="linkit_lremote_read_value" id="42">
+                                <field name="NAME">button1</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="43">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="logic_compare" id="122" inline="true">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="linkit_lremote_read_value" id="123">
+                                <field name="NAME">button2</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="124">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="inout_buildin_led" id="44">
+                        <field name="STAT">HIGH</field>
+                        <next>
+                          <block type="linkit_lremote_update_textlabel" id="109" inline="true">
+                            <field name="NAME">label2</field>
+                            <value name="CONTENT">
+                              <block type="text" id="110">
+                                <field name="TEXT">燈亮</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <next>
+                  <block type="controls_if" id="45" inline="false">
+                    <value name="IF0">
+                      <block type="linkit_lremote_is_written" id="46">
+                        <field name="NAME">button2</field>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="controls_if" id="47" inline="false">
+                        <value name="IF0">
+                          <block type="logic_compare" id="48" inline="true">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="linkit_lremote_read_value" id="49">
+                                <field name="NAME">button2</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="50">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="inout_buildin_led" id="51">
+                            <field name="STAT">LOW</field>
+                            <next>
+                              <block type="linkit_lremote_update_textlabel" id="111" inline="true">
+                                <field name="NAME">label2</field>
+                                <value name="CONTENT">
+                                  <block type="text" id="112">
+                                    <field name="TEXT">燈滅</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="delay_custom" id="52" inline="false">
+                        <value name="DELAY_TIME">
+                          <block type="math_number" id="53">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
